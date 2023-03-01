@@ -1,0 +1,12 @@
+.post__inner {
+  flex-basis: 100%;
+  padding: 30px 20px 30px 30px;
+  box-sizing: border-box;
+
+  @media (min-width: 992px) {
+    padding: 30px 20px 30px 30px;
+    flex-basis: 50%;
+  }
+
+}
+

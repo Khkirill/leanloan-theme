@@ -1,0 +1,23 @@
+.post__title {
+  display: block;
+  margin: 0 0 8px;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.364;
+  color: #111111;
+  font-size: 22px;
+  font-weight: 500;
+
+  & > a {
+    color: #111111;
+    text-decoration: none;
+
+    &:hover {
+      color: #009cff;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.widget-category__item {
+  border-bottom: 1px solid rgba(94,94,94,0.1);
+
+  .widget-category &:last-child {
+    border: 0;
+  }
+}

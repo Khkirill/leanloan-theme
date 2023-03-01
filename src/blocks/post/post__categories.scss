@@ -1,0 +1,13 @@
+.post__categories {
+  display: block;
+  margin: 0 0 8px;
+  padding: 0;
+
+}
+
+ul.post__categories {
+  list-style: none;
+}
+ul.post__categories > li {
+  display: inline-block;
+}

@@ -1,0 +1,29 @@
+{
+	"name": "gutenpride",
+	"version": "0.1.0",
+	"description": "Example block written with ESNext standard and JSX support – build step required.",
+	"author": "The WordPress Contributors",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format:js": "wp-scripts format-js",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"start": "wp-scripts start",
+		"packages-update": "wp-scripts packages-update"
+	},
+	"devDependencies": {
+		"@types/sortablejs": "^1.10.6",
+		"@wordpress/scripts": "^12.5.0"
+	},
+	"dependencies": {
+		"array-move": "^3.0.1",
+		"classnames": "^2.2.6",
+		"gutenberg-sortable": "^1.0.5",
+		"react-siema": "^1.0.1",
+		"react-sortable-hoc": "^1.11.0",
+		"react-sortablejs": "^6.0.0",
+		"sortablejs": "^1.12.0"
+	}
+}

@@ -1,0 +1,13 @@
+.post-nav__link {
+  font-size: 14px;
+  display: table;
+  line-height: 18px;
+  max-width: 70%;
+  text-decoration: none;
+
+  color: #5e5e5e;
+
+  .post-nav__next & {
+    float: right;
+  }
+}

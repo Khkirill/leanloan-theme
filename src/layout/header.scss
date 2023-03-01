@@ -1,0 +1,100 @@
+.head-section {
+  background-color: #fdf2cc;
+  border-radius: 0 0 30px 30px
+}
+
+@media (max-width: 991px) {
+  .head-section {
+    padding-top: 51px;
+  }
+}
+
+@media (max-width: 768px) {
+  .head-section {
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .head-section {
+    padding-top: 51px;
+  }
+}
+
+.headtext-top {
+  display: block;
+  font-family: 'Rubik', sans-serif;
+  font-size: 38px;
+  font-weight: 500;
+  width: 700px;
+  color: #000;
+  padding-top: 50px;
+  line-height: 1.3;
+  text-align: center;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .headtext-top {
+    display: block;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    padding-top: 33px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 1.3;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.headtext-under {
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #000;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .headtext-under {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 35px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+.sdl-shape {
+  position: absolute;
+  pointer-events: none;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden !important;
+  color: #fff;
+}
+
+
+.sdl-shape > svg {
+  -webkit-transform: scale(2);
+  transform: scale(2);
+  width: 100%;
+  height: auto;
+  -webkit-transform-origin: top center;
+  transform-origin: top center;
+  overflow: hidden;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
+  .sdl-shape {
+    bottom: -5px;
+  }
+}

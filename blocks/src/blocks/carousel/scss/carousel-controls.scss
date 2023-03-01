@@ -1,0 +1,42 @@
+.carousel {
+
+  &-controls {
+	position: absolute;
+	bottom: 60px;
+	margin-left: -600px;
+	left: 50%;
+	max-width: 1189px;
+	text-align: right;
+	width: 100%;
+	z-index: 2;
+  }
+
+  &-control {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	height: 40px;
+	width: 40px;
+	cursor: pointer;
+	border-radius: 50%;
+	box-shadow: 0 3px 5px 0 rgba(0,1,1,.1);
+	background: rgba(255,255,255,.5);
+	border: none;
+	margin: 0 3px;
+	&:active {
+	  outline: none;
+	}
+	&:focus {
+	  outline: none;
+	}
+	& > svg {
+	  width: 16px;
+	  height: 16px;
+
+	}
+  }
+}
+
+.carousel-control_side_left > svg {
+  transform: scale(-1, 1);
+}

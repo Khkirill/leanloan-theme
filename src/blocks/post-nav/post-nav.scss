@@ -1,0 +1,12 @@
+.post-nav {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid rgba(94,94,94,0.1);
+  padding-top: 35px;
+  & > div {
+    width: 50%;
+  }
+  a {
+    text-decoration: none;
+  }
+}

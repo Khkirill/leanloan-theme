@@ -1,0 +1,44 @@
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px dashed #ddd;
+}
+
+.container.is-selected {
+  border-color: #0d66c2;
+  border-width: 2px;
+}
+
+.container:not(.has-child-selected) {
+  min-height: 5em;
+}
+.block-editor-block-list__layout .block-editor-block-list__block.container .block-editor-block-list__layout .block-editor-default-block-appender .block-editor-inserter {
+  right: 50%;
+}
+
+@media (min-width: 576px) {
+  .container {
+	max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+	max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+	max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+	max-width: 1140px;
+  }
+}
